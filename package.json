@@ -4,7 +4,7 @@
   "description": "Resolve DID documents for did:peer",
   "type": "module",
   "source": "src/resolver.ts",
-  "main": "./src/resolver.ts",
+  "main": "./lib/resolver.js",
   "types": "./lib/resolver.d.ts",
   "files": [
     "lib",
