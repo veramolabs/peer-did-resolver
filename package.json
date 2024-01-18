@@ -22,8 +22,8 @@
     "url": "git@github.com:veramolabs/peer-did-resolver.git"
   },
   "dependencies": {
-    "@aviarytech/did-peer": "^0.0.19",
-    "did-resolver": "^4.0.0"
+    "@aviarytech/did-peer": "^0.0.22",
+    "did-resolver": "^4.1.0"
   },
   "scripts": {
     "test": "jest",
