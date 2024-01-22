@@ -32,8 +32,7 @@ export function getResolver(): Record<string, DIDResolver> {
         break
       }
 
-      // TODO: this excludes the use of query params
-      const docIdMatchesDid = didDocument?.id === did
+      const docIdMatchesDid = didDocument?.id === parsed.did
       if (!docIdMatchesDid) {
         err = 'resolver_error: DID document id does not match requested did'
         // break // uncomment this when adding more checks
