@@ -1,6 +1,6 @@
 {
   "name": "peer-did-resolver",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Resolve DID documents for did:peer",
   "type": "module",
   "source": "src/resolver.ts",
@@ -46,7 +46,9 @@
     "testMatch": [
       "**/__tests__/**/*.test.[jt]s"
     ],
-    "transformIgnorePatterns": ["/node_modules/@aviarytech/peer-did"]
+    "transformIgnorePatterns": [
+      "/node_modules/@aviarytech/peer-did"
+    ]
   },
   "devDependencies": {
     "@babel/core": "7.20.2",
